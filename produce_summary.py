@@ -13,14 +13,13 @@ def melon_deliveries(day, the_file_name):
     the_file.close()
 
 
-dayNumber = 1
+day_num = 1
 for x in range(20140519, 20140522):
     name = "um-deliveries-" + str(x) + ".txt"
-    melon_deliveries(dayNumber,  name)
-    dayNumber += 1
+    melon_deliveries(day_num,  name)
+    day_num += 1
 
 
-print('testing')
 '''
 melon_deliveries(1, "um-deliveries-20140519.txt")
 melon_deliveries(2, "um-deliveries-20140520.txt")
