@@ -18,6 +18,9 @@ for x in range(20140519, 20140522):
     name = "um-deliveries-" + str(x) + ".txt"
     melon_deliveries(dayNumber,  name)
     dayNumber += 1
+
+
+print('testing')
 '''
 melon_deliveries(1, "um-deliveries-20140519.txt")
 melon_deliveries(2, "um-deliveries-20140520.txt")
